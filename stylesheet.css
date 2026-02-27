@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#200015;
+    color:#fff;
+}
+
+/* NAVBAR */
+.header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#200015;
+    z-index:100;
+}
+
+.logo{
+    font-size:25px;
+    font-weight:700;
+    color:#fff;
+    text-decoration:none;
+}
+
+.navbar a{
+    margin-left:35px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+}
+
+/* HERO */
+.home{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 10%;
+}
+
+.home-content h1{
+    font-size:56px;
+}
+
+.home-content h3{
+    font-size:32px;
+}
+
+.home-img img{
+    width:350px;
+    border-radius:50%;
+    box-shadow:0 0 40px rgb(255, 0, 170);
+}
+
+.social-media a{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:40px;
+    height:40px;
+    border:2px solid rgb(255, 0, 170);
+    border-radius:50%;
+    color:rgb(255, 0, 170);
+    margin:20px 10px 20px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 28px;
+    background:rgb(255, 0, 170);
+    border-radius:40px;
+    text-decoration:none;
+    color:#000;
+    font-weight:600;
+    box-shadow:0 0 15px rgb(255, 0, 170);
+}
+
+/* ABOUT */
+.about{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+    padding:100px 10%;
+}
+
+.about-img img{
+    width:350px;
+    border-radius:50%;
+    box-shadow:0 0 40px rgb(255, 0, 170);
+}
+
+.heading{
+    text-align:center;
+    font-size:40px;
+}
+
+/* SERVICES */
+.services{
+    padding:100px 10%;
+}
+
+.services-container{
+    display:flex;
+    gap:20px;
+    margin-top:40px;
+}
+
+.services-box{
+    flex:1;
+    background:#490030;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 0 20px #ff66cc;
+}
+
+/* SKILLS */
+.skills{
+    padding:100px 10%;
+}
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:40px;
+}
+
+.skill{
+    background:#490030;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 15px rgb(255, 0, 170);
+}
+
+/* PROJECTS */
+.projects{
+    padding:100px 10%;
+}
+
+.projects-container{
+    display:flex;
+    gap:20px;
+    margin-top:40px;
+}
+
+.project-box{
+    background:#490030;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 15px rgb(255, 0, 170);
+}
+
+.project-box img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* CONTACT */
+/* Contact Icons */
+.contact-icons{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:30px 0 40px;
+}
+
+.contact-icons a{
+    width:60px;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid #ff00aa;
+    border-radius:50%;
+    font-size:28px;
+    color:#ff00aa;
+    transition:0.3s;
+}
+
+.contact-icons a:hover{
+    background:#ff00aa;
+    color:#fff;
+    box-shadow:0 0 20px #ff00aa;
+}
+/* FOOTER */
+.footer{
+    text-align:center;
+    padding:20px;
+    background:#200015;
+}
